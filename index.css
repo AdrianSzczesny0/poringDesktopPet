@@ -1,0 +1,103 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  /* background-color: blue; */
+  width:100%;
+  height:100vh;
+  margin:0px;
+}
+.canvas{
+  width:100%;
+  height:100%;
+  /* background-color: red; */
+}
+.grab{
+  cursor:grab;
+}
+
+.wrapper{
+  width:100%;
+  height:100vh;
+  /* background-color: white; */
+}
+/* .dragged{
+  background-color: greenyellow;
+  opacity: 0.6;
+}
+.die{
+  background-color: red;
+  opacity: 0.6;
+}
+.idle{
+  background-color: blue;
+  opacity: 0.6;
+} */
+.contextMenu{
+  display:flex;
+  position:absolute;
+  width:10vh;
+  height:15vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  /* box-shadow: -0px 10px 10px -13px rgba(147, 151, 210, 0.45);
+   */
+   box-shadow: inset 0px -1px 1px 0px rgba(66, 68, 90, 0.8);
+  flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  border:0px;
+  border-style: solid;
+  border-bottom: 1px;
+  border-right: 1px;
+  border-left: 1px;
+  border-color: rgb(115,127,138,0.8);
+}
+.header{
+  height:20%;
+  width:100%;
+  background: linear-gradient(180deg, rgba(197,205,228,1) 0%, rgba(161,175,220,1) 42%, rgba(220,241,247,1) 100%);
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border:0px;
+  border-bottom:1px;
+  border-color: rgb(115,127,138);
+  border-style:solid;
+
+  display:flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+  justify-content:left;
+
+}
+.orb{
+  margin-left:5px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(197,205,228,1) 0%, rgba(86,117,199,1) 42%, rgba(220,241,247,1) 100%);
+  width:10px;
+  height:10px;
+  border:1px;
+  border-style: solid;
+  border-color: rgba(86,117,199,1);
+}
+.feed:hover{
+
+}
+.listItem{
+
+  width:100%;
+  height:30px;
+  text-align: center;
+  align-content: center;
+  color:rgb(59, 63, 67);
+}
+.listItem:hover{
+  /* background-color: rgb(158, 158, 203); */
+  box-shadow: inset 0px -1px 1px 0px rgba(66, 68, 90, 0.8);
+  color:rgb(32, 190, 218);
+  cursor: pointer;
+  background-color: rgba(32, 181, 218, 0.236);
+}
